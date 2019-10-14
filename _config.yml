@@ -78,5 +78,6 @@ theme: Butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
-  type: 
+  type: git
+  repo: https://github.com/ch-4ml/ch-4ml.github.io
 
