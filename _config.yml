@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Chpark's portfolio
-subtitle: 부제
-description: 설명
-keywords:
-author: Chanhyeong Park
-language: ko
+title: ch-4ml
+subtitle: Blockchain Developer
+description: 즉시, 반드시, 될 때 까지
+keywords: 키워드
+author: ch-4ml
+language: en
 timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://ch-4ml.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:title/
 permalink_defaults:
 
 # Directory
@@ -35,7 +35,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:

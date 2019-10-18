@@ -1,20 +1,20 @@
 
 # Main menu navigation
 # ---------------
-# format: xxx: 連結 || icon
+# format: xxx: 링크 || icon
 # sub-menu
 # xxx || icon:
-#   xxx || 連結 || icon
+# xxx || 링크 || icon
 menu:
   Home: / || fa fa-home
   Archives: /archives/ || fa fa-archive
-  Tags: /tags/ || fa fa-tags
-  Categories: /categories/ || fa fa-folder-open
-  Link: /link/ || fa fa-link
-  About: /about/ || fa fa-heart
-  List||fa fa-list:
-    - Music || /music/ || fa fa-music
-    - Movie || /movies/ || fa fa-film
+  Portfolio: /tags/Portfolio || fa fa-heart # fa fa-tags
+  # Categories: /categories/ || fa fa-folder-open
+  # Link: /link/ || fa fa-link
+  # About: /about/ || fa fa-heart
+  # List||fa fa-list:
+  #   - Music || /music/ || fa fa-music
+  #   - Movie || /movies/ || fa fa-film
 
 
 # Favicon
@@ -45,10 +45,10 @@ highlight_shrink: false #代碼框不展開，需點擊 '>' 打開
 code_word_wrap: false
 
 # copy setting
-# 是否禁止複製（如果禁止，highlight_copy的功能將無效)
-# copyright 複製的内容後面加上版權信息
+# 복사 금지 여부（금지 된 경우 highlight_copy의 기능이 유효하지 않음 )
+# copyright 복사 한 내용과 저작권 정보
 copy:
-  enable: false  # true 開啓 / false 禁止
+  enable: true  # true 오픈 / false 금지
   copyright: false
 
 # social settings
@@ -56,7 +56,8 @@ copy:
 #   icon: link
 # ---------------
 social:
-  fa fa-github: https://github.com/jerryc127
+  fa fa-github: https://github.com/ch-4ml
+  fa fa-envelope: mailto:ark9659@gmail.com
   fa fa-rss: /atom.xml
 
 ####    search    ####
@@ -131,11 +132,13 @@ cdn:
 # Post info settings
 # ---------------
 # avatar: /img/avatar.png
-avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
+# avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
+avatar: /img/run0.gif
 
 # the banner image of index
 # if the banner of another page not setting,it will show the top_img
-top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
+# top_img: https://i.loli.net/2019/05/22/5ce53eb6dc82757840.jpg
+top_img: /img/background.jpg
 
 #the banner image of post
 # if the post not set the post cover and post top image, it will show it
@@ -180,7 +183,7 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# 自動節選
+# 자동 발췌
 auto_excerpt:
   enable: true
   length: 150
@@ -194,7 +197,7 @@ addThis:
 
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: facebook,twitter
 
 # https://www.addtoany.com/
 addtoany:
@@ -202,8 +205,8 @@ addtoany:
   item:
     - facebook
     - twitter
-    - wechat
-    - sina_weibo
+#    - wechat
+#    - sina_weibo
     - facebook_messenger
     - email
     - copy_link
@@ -267,7 +270,7 @@ ICP:
   icon: /img/icp.png
 
 
-####    站長驗證    ####
+####    웹 마스터 인증    ####
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 google_site_verification:
@@ -285,33 +288,33 @@ baidu_site_verification:
 qihu_site_verification:
 
 
-# 友情鏈接界面設置 
+# 친숙한 링크 인터페이스 설정 
 Flink:
-  headline: 友情鏈接
-  info_headline: 我的Blog資料
-  name: Blog 名字： JerryC
-  address: Blog 地址： https://jerryc.me/
-  avatar: Blog 頭像： https://jerryc.me/img/avatar.png
-  info: Blog 簡介： 今日事,今日畢
-  comment: 如果需要交換友鏈,請留言
+  headline: 링크
+  info_headline: 내 블로그 정보
+  name: Blog 이름： JerryC
+  address: Blog 주소： https://jerryc.me/
+  avatar: Blog 아바타： https://jerryc.me/img/avatar.png
+  info: Blog 소개： 今日事,今日畢
+  comment: 필요한 경우, 친구 요청 메시지를 남겨주세요.
 
-# 打賞按鈕
+# Donate 버튼
 reward:
-  enable: true
+  enable: false
   QR_code:
     - itemlist:
         img: /img/wechat.jpg
-        text: 微信
+        text: 위챗 왜있는지 보려고 고침
     - itemlist:
         img: /img/alipay.jpg
-        text: 支付寶
+        text: 알리페이 도 마찬가지
 
-# 推薦文章
+# 추천 포스트
 related_post:
   enable: true
-  limit: 6 # 顯示推薦文章數目
+  limit: 6 # 추천 포스트 표시 수
 
-####    美化/效果    ####
+####    미화 / 효과    ####
 #--------------------------------
 
 # Theme color for customize
@@ -329,32 +332,32 @@ related_post:
 #   read-mode-bg_color: '#FAF9DE'
 #   inline-code-color: '#F47466'
 
-# 主頁設置
-# 默認top_img全屏，site_info在中間
-# 使用默認, 都無需填寫（建議默認）
-index_site_info_top:   #主頁標題距離頂部距離  例如 300px/300em/300rem/10%
-index_top_img_height:  #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
+# 홈페이지 설정
+# 기본 top_img 전체 화면, 중간에 site_info
+# 기본값 사용, 채울 필요 없음 (권장 기본값)
+index_site_info_top:   # 상단에서 홈페이지 제목까지 거리 ex) 300px/300em/300rem/10%
+index_top_img_height:  # 홈 top_img 높이 ex) 300px/300em/300rem  백분율 사용 불가
 
 
-# category和tag頁的UI設置
-# index 值代表 UI將與首頁的UI一樣
-# 默認跟archives頁面UI一樣
-category_ui:  # 留空或index
-tag_ui:  # 留空或index
+# 카테고리 및 태그 페이지의 UI 설정
+# index 값은 UI가 홈 페이지의 UI와 동일 함을 나타냅니다.
+# 기본값은 아카이브 페이지 UI와 동일합니다.
+category_ui:  # 비워두거나 index 값
+tag_ui:  # 비워두거나 index 값
 
 
-# 設置網站背景
-# 可設置圖片 或者 顔色
-# 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
-# 顔色 background: '#49B202'
-# 留空 顯示白色
+# 웹 사이트 배경 설정
+# 그림 또는 색상을 설정할 수 있습니다.
+# 이미지 형식 배경: url(http://xxxxxx.com/xxx.jpg)
+# 색상 background: '#49B202'
+# 비워둘 것
 background:
 
-# footer是否顯示圖片背景(與top_img一致)
+# 바닥 글이 그림의 배경을 표시하는지 여부 (top_img와 일치)
 footer_bg: false
 
 
-# canvas_ribbon  靜止彩帶背景
+# canvas_ribbon  정적 리본 배경
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
   enable: false
@@ -363,74 +366,74 @@ canvas_ribbon:
   zIndex: -1
   click_to_change: false
 
-# 動態彩帶
+# 다이나믹 리본
 canvas_ribbon_piao:
   enable: false
 
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
   script: https://cdn.jsdelivr.net/gh/jerryc127/CDN/js/canvas-nest.js # or /js/third-party/canvas-nest.js
 
-# 打字效果
+# 타이핑 효과
 activate_power_mode:
-  enable: false
+  enable: true
 
-# 鼠標點擊效果
+# 마우스 클릭 효과
 fireworks:
   enable: false
 
-# 頭像會一直轉圈
-avatar_effect: false
+# 아바타 회전
+avatar_effect: true
 
-# 網站顯示模式
-# day 默認模式
-# night 黑暗模式（不建議）
+# 웹 사이트 표시 모드
+# day 기본 모드
+# night 어두운 모드 (권장되지 않음)
 display_mode: day
 
-# 美化post頁顯示
+# 게시물 페이지 표시를 아름답게
 post_beautify:
-  enable: false
+  enable: true
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
-# 全局字體
+# 글로벌 글꼴
 font:
   enable: false
   font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
   code-font: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
 
-# 網站名字字體
-# 左上角網站名字 主頁居中網站名字
+# 웹 사이트 이름 글꼴
+# 사이트 이름(왼쪽 상단) / 사이트 이름(중앙)
 blog_title_font: 
   font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
   font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
-# 水平分隔綫
+# 수평 분배 선
 hr:
-  enable: false
-  icon: '\f21c' #fontawesome上圖標的Unicode
+  enable: true
+  icon: '\f21c' #fontawesome 아이콘의 유니 코드
   icon-top: -20px
 
-# 主頁subtitle
-# 打字效果
-# (如果有英文逗號' , '，請使用轉義字符 &#44;)
+# 자막
+# 타이핑 효과
+# (영어로 쉼표가 있는 경우' , '，이스케이프 문자를 사용 &#44;)
 subtitle: 
   enable: true
   sub:
-    - 今日事&#44;今日畢
-    - Never put off till tomorrow what you can do today
+    - For completion anything&#44; Must do Immediately
+    - 무엇이든 완성하려면&#44; 즉시 해야한다.
 
 
 
-####    側邊欄    ####
+####    사이드 바    ####
 #-------------------------------------
-# 側邊欄顯示設置
+# 사이드 바 디스플레이 설정
 aside:
   position: right # left or right
   card_author: true
@@ -441,48 +444,48 @@ aside:
   card_archives: true
   card_webinfo: true
 
-# 網站公告
+# 웹 사이트 발표
 announcement:
-  content: 感謝訪問本站，若喜歡請收藏 ^_^
+  content: 방문해주셔서 감사합니다.
 
 # busuanzi count for PV / UV in site
-# 訪問人數
+# 방문자 수
 busuanzi:
   site_uv: true
   site_pv: true
   page_pv: true
 
-# 網頁開通時間
-# 格式: 月/日/年 時間
-# 也可以寫成 年/月/日 時間
+# 웹 페이지 시작 시간
+# 형식: 월/일/년 시간
+# 다음과 같이 사용 가능: 년/월/일 시간
 runtimeshow:
   enable: true
-  start_date: 6/7/2018 00:00:00
+  start_date: 2019/10/15 00:00:00
 
 
-####   右下角按鈕  ####
+####   오른쪽 하단 버튼  ####
 #----------------------------------------------
-# 簡繁轉換
+# 간단하고 전통적인 변환
 translate:
   enable: true
-  # 默認按鈕顯示文字
+  # 기본 버튼은 텍스트를 보여줍니다.
   default: 繁
-  #网站默认语言，1: 繁體中文, 2: 简体中文
+  # 웹 사이트 기본 언어, 1 : 중국어 번체, 2 : 중국어 간체
   defaultEncoding: 2
-  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  # 지연 시간, 이전이 아닌 경우 지연 변환 시간을 100ms 동안 100과 같이 설정하십시오. 기본값은 0입니다.
   translateDelay: 0
-  #博客网址
+  # 블로그 URL
   cookieDomain: "https://xxx/"
-  #當文字是簡體時，按鈕顯示的文字
+  # 번체
   msgToTraditionalChinese: "繁"
-  #當文字是繁體時，按鈕顯示的文字
+  # 간체
   msgToSimplifiedChinese: "简"
 
-# 夜間模式
+# 야간 모드
 nightshift:
   enable: true
 
-#閲讀模式
+# 읽기 모드
 readmode:
   enable: true
 
@@ -490,7 +493,7 @@ readmode:
 ####    other     ####
 #------------------------------------------------
 
-#百度推送
+# 바이두
 baidu_push:
   enable: false
 
@@ -514,21 +517,21 @@ note:
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
 
-# 圖片懶加載
+# lazyload
 lazyload:
   enable: true
   script: https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js
 
-# 避免重複網址分散seo
+# 중복 URL 회피
 canonical: true
 
-# 禁止百度轉碼
+# 바이두 끄기
 disable_baidu_transformation: true
 
-# twitter分享自動帶上樣式
+# twitter 자동 스타일 공유
 # https://i.loli.net/2019/09/08/qm3RfvUCKbct1Wz.png
 twitter_meta: true
 
-# facebook QQ 等 分享自動帶上樣式
+# facebook QQ 等 자동 스타일 공유
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
 Open_Graph_meta: true
