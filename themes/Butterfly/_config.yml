@@ -9,6 +9,7 @@ menu:
   Home: / || fa fa-home
   Archives: /archives/ || fa fa-archive
   Portfolio: /tags/Portfolio || fa fa-heart # fa fa-tags
+  Study: /tags/Study || fa fa-folder-open
   # Categories: /categories/ || fa fa-folder-open
   # Link: /link/ || fa fa-link
   # About: /about/ || fa fa-heart
@@ -467,7 +468,7 @@ runtimeshow:
 #----------------------------------------------
 # 간단하고 전통적인 변환
 translate:
-  enable: true
+  enable: false
   # 기본 버튼은 텍스트를 보여줍니다.
   default: 繁
   # 웹 사이트 기본 언어, 1 : 중국어 번체, 2 : 중국어 간체
