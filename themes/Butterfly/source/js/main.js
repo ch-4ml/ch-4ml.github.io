@@ -297,23 +297,26 @@ $(function () {
   var galleryList = [];
   galleryItem.each(function (idx, elem) {
     galleryList.push({
-      src: $(elem).data("url"),
+      src: $(elem).data("image"),
       opts: {
         caption: $(elem).data("title")
       }
     });
   });
   galleryItem.on("click", function () {
-    $.fancybox.open(
-      galleryList, {
-        loop: true,
-        transitionEffect: "slide"
-      },
-      galleryItem.index(this)
-    );
-    return false;
-
+    location.href = $(this).data("url");
   });
+  // 2019.11.05 갤러리에 href 입히기 위해 삭제
+  // galleryItem.on("click", function () {
+  //   $.fancybox.open(
+  //     galleryList, {
+  //       loop: true,
+  //       transitionEffect: "slide"
+  //     },
+  //     galleryItem.index(this)
+  //   );
+  //   return false;
+  // });
 
   /**
    * 手機menu和toc按鈕點擊

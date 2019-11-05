@@ -1,0 +1,23 @@
+---
+title: 자기 소개 어플리케이션 - About
+date: 2017-11-30 14:22:15
+tags: [Portfolio, iOS, Swift 3]
+cover: /posts/about/storyboard.png
+---
+# 자기 소개 어플리케이션 - About
+
+## 프로젝트 팀
+- 개인 프로젝트
+
+## 프로젝트 기간
+- 2017.11.30 ~ 2017.12.08
+
+## 프로젝트 개요
+- Swift의 기본적인 기능을 학습하기 위한 프로젝트입니다.
+- 포트폴리오와 자기소개서를 정리해놓고 필요할 때 마다 찾아 볼 수 있습니다.
+
+## 개발 언어 / 구성 환경
+- Swift 3 / macOS Sierra 10.12.6, Xcode 8.3.3
+
+## 구현 내용
+{% asset_img "storyboard.png" "스토리보드" %}

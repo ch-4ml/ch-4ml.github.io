@@ -4,18 +4,15 @@
 # format: xxx: 링크 || icon
 # sub-menu
 # xxx || icon:
-# xxx || 링크 || icon
+# - xxx || 링크 || icon
 menu:
   Home: / || fa fa-home
-  Archives: /archives/ || fa fa-archive
-  Portfolio: /tags/Portfolio || fa fa-heart # fa fa-tags
-  Study: /tags/Study || fa fa-folder-open
+  About: /about/ || fa fa-heart
+  # Archives: /archives/ || fa fa-archive
+  Portfolio: /portfolio || fa fa-folder-open # fa fa-tags
+  Study: /categories/Study || fa fa-book
   # Categories: /categories/ || fa fa-folder-open
   # Link: /link/ || fa fa-link
-  # About: /about/ || fa fa-heart
-  # List||fa fa-list:
-  #   - Music || /music/ || fa fa-music
-  #   - Movie || /movies/ || fa fa-film
 
 
 # Favicon
@@ -134,7 +131,7 @@ cdn:
 # ---------------
 # avatar: /img/avatar.png
 # avatar: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/avatar.png
-avatar: /img/run0.gif
+avatar: /img/portrait_rect.jpg
 
 # the banner image of index
 # if the banner of another page not setting,it will show the top_img
@@ -149,13 +146,16 @@ post_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/post.png
 default_cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
 
 # the banner image of archive page
-archive_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/archive.jpg
+# archive_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/archive.jpg
+archive_img: /img/background.jpg
 
 # the banner image of tag page
-tag_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/tag-bg.png
+# tag_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/tag-bg.png
+tag_img: /img/background.jpg
 
 # the banner image of category page
-category_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/category-bg
+category_img: /img/background.jpg
+# category_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/category-bg
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
@@ -215,8 +215,8 @@ addtoany:
 ####   Comments System    ####
 # ------------------------------------
 disqus:
-  enable: false
-  shortname: 
+  enable: true
+  shortname: ch-4ml
   
 # laibili:
   # enable: false
@@ -257,7 +257,7 @@ valine:
 
 #####     Footer Settings    ####
 # ------------------------------------
-since: 2018
+since: 2019
 
 footer_custom_text:
 
@@ -390,7 +390,7 @@ fireworks:
   enable: false
 
 # 아바타 회전
-avatar_effect: true
+avatar_effect: false
 
 # 웹 사이트 표시 모드
 # day 기본 모드
@@ -442,7 +442,7 @@ aside:
   card_recent_post: true
   card_categories: true
   card_tags: true
-  card_archives: true
+  card_archives: false
   card_webinfo: true
 
 # 웹 사이트 발표
@@ -461,7 +461,7 @@ busuanzi:
 # 다음과 같이 사용 가능: 년/월/일 시간
 runtimeshow:
   enable: true
-  start_date: 2019/10/15 00:00:00
+  start_date: 2019/10/25 00:00:00
 
 
 ####   오른쪽 하단 버튼  ####
@@ -501,7 +501,7 @@ baidu_push:
 # https://instant.page/
 # prefetch預加載
 instantpage:
-  enable: true
+  enable: false
 
 # Note (Bootstrap Callout)
 # https://muse.theme-next.org/docs/tag-plugins/note

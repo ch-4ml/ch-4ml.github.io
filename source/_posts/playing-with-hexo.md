@@ -1,14 +1,15 @@
 ---
-title: playing-with-hexo
-date: 2019-10-15 03:21:15
-tags: Hexo
+title: Hexo 갖고 놀기
+date: 2017-06-26 01:52:23
+category: [Study, Hexo]
+tags: [Hexo]
 cover: /posts/playing-with-hexo/hexo-github.png
 ---
 
-{% asset_img "hexo-github.png" "it is not working!" %}
+{% asset_img "hexo-github.png" "hexo-github" %}
 
 # 헥소 갖고 놀기
-헥소를 처음 사용하면서, 이것 저것 테스트 해보고 기록하는 용도로 작성한 포스트입니다.
+헥소를 처음 사용하면서, 이것저것 테스트 해보고 기록하는 용도로 작성한 포스트입니다.
 
 ## 아카이브 cover image 설정
 ### 아카이브 cover 이미지 설정에 필요한 경로를 정확히 파악하기 위해서 테스트 중
@@ -24,15 +25,13 @@ cover: 이미지 경로
 ```
 
 ## 디렉토리 구조
-### Deploy 되는 디렉토리 구조가 왜 2019/10/14 인지 알아보자
+### Deploy 되는 디렉토리 구조가 왜 2017/06/26 인지 알아보자
 1. _config.yml의 permalink 설정에 의한 것으로 보임. -> 근데 날짜가 왜 다르지?
 2. 처음 레포지토리 생성한 날짜를 가져오는 것으로 보인다. 기존 구조는 다음과 같다. {% asset_img "test0.png" "테마 기본 상태" %}
 3. permalink 를 /로 설정하고 테스트 했을 때, 다 지우니까 다음과 같이 만들어졌다. {% asset_img "test1.png" "permalink: /" %}
 4. 포스트 별로 관리하기 어려워져서, 이번에는 permalink를 _posts/:title로 설정해봤더니 훨씬 보기 좋은 것 같다! :-) {% asset_img "test2.png" "permalink: _posts/:title" %}
 5. 문제가 생겼다. 작성한 post로의 링크 연결이 안된다... 다시 원래대로 돌리는 중... 왜지..?
 6. permalink를 posts/:title로 변경했더니 잘 된다. 언더스코어(_)로 시작하는 디렉토리 명이 오류를 발생시킨 게 아닐까 싶다. <br>deploy 되는 디렉토리 구조는 다음과 같이 정리되었다.{% asset_img "test3.png" "posts/:title" %}
-
-~~여담으로.. 헥소를 사용하면서 다른 날에 심은 잔디가 모두 새싹이 됐다.~~
 
 md file 상단에 설정 부분이 front-matter
 

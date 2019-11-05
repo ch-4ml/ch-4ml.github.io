@@ -1,6 +1,8 @@
 ---
 title: Hello World
-tags: Hexo
+date: 2017-06-24 01:27:41
+category: [Study, Hexo]
+tags: [Hexo]
 cover: /posts/hello-world/hexo.jpg
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
