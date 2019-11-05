@@ -1,8 +1,6 @@
 ---
 title: 자기 소개 어플리케이션 - About
 date: 2017-11-30 14:22:15
-tags: [Portfolio, iOS, Swift 3]
-cover: /posts/about/storyboard.png
 ---
 # 자기 소개 어플리케이션 - About
 

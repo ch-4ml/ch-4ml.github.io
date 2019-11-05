@@ -1,9 +1,6 @@
 ---
 title: 1:1 네트워크 보드게임 - 밥도둑! 반찬들의 전쟁
 date: 2017-06-28 01:27:41
-category: [Portfolio]
-tags: [Portfolio, C#, Socket, Network]
-cover: /posts/a-war-of-side-dishes/1-server-config.png
 ---
 
 # 1:1 네트워크 보드게임 - 밥도둑! 반찬들의 전쟁

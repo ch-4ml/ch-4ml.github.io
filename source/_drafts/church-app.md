@@ -1,8 +1,6 @@
 ---
 title: 높은 뜻 정의교회 홈페이지 링크 앱
 date: 2019-09-21 07:52:42
-category: [Portfolio]
-tags: [React.js]
 cover: /posts/church-app/jeongeui.png
 ---
 # 높은 뜻 정의교회 App
