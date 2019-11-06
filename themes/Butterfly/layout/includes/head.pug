@@ -3,6 +3,8 @@
 - var photo_check = is_post() ? page.cover || theme.avatar : theme.avatar
 - var photo_link = url_check (photo_check) ? photo_check : config.url + photo_check
 
+script(src=url_for('/js/third-party/bootstrap.min.js'))
+
 meta(http-equiv="x-dns-prefetch-control" content="on")
 if theme.canonical
   link(rel="canonical" href=without_html)

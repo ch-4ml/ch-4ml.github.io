@@ -35,4 +35,9 @@ cover: 이미지 경로
 
 md file 상단에 설정 부분이 front-matter
 
-계속 정리해야지...
+## Github Pages 업데이트 안됨
+### 블로그를 뜯어고치던 중 Github Pages에 더이상 Deploy가 안되는 현상 - 2019.11.06
+1. 테마 내 소스코드에서 오류가 발생한 경우, 로그에는 나타나지 않으면서 배포가 안되는 현상이 있는 것 같다.
+2. 나의 경우는 layout pug file에 google analytics 관련 javascript 부분을 추가하면서 문제가 발생했다.
+3. 알고 보니 테마 내에 이미 google analytics를 사용할 수 있도록 소스코드가 작성되어 있었다.
+4. 올바른 사용법 대로 _config.yml에 google analytics 추적 ID만 적고 다시 배포하니 정상 작동한다.

@@ -79,6 +79,6 @@ theme: Butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/ch-4ml/github-pages-backup
+  repo: https://github.com/ch-4ml/ch-4ml.github.io
   branch: master
 

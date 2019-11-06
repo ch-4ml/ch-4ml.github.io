@@ -56,7 +56,7 @@ copy:
 social:
   fa fa-github: https://github.com/ch-4ml
   fa fa-envelope: mailto:ark9659@gmail.com
-  fa fa-rss: /atom.xml
+  fa fa-rss: https://stackoverflow.com/users/story/9013453
 
 ####    search    ####
 # Algolia search
@@ -101,7 +101,7 @@ katex:
 # baidu_analytics: 
 
 #Google Analytics
-google_analytics:
+google_analytics: UA-151506248-1
 
 
 # stylesheets loaded in the <head>
@@ -531,8 +531,8 @@ disable_baidu_transformation: true
 
 # twitter 자동 스타일 공유
 # https://i.loli.net/2019/09/08/qm3RfvUCKbct1Wz.png
-twitter_meta: true
+twitter_meta: false
 
 # facebook QQ 等 자동 스타일 공유
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
-Open_Graph_meta: true
+Open_Graph_meta: false
