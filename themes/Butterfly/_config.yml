@@ -7,13 +7,12 @@
 # - xxx || 링크 || icon
 menu:
   Home: / || fa fa-home
-  About: /about/ || fa fa-heart
   # Archives: /archives/ || fa fa-archive
   Portfolio: /portfolio || fa fa-folder-open # fa fa-tags
   Study: /categories/Study || fa fa-book
   # Categories: /categories/ || fa fa-folder-open
   # Link: /link/ || fa fa-link
-
+  About: /about/ || fa fa-heart
 
 # Favicon
 # ---------------

@@ -17,48 +17,32 @@ date: 2019-10-20 07:21:58
 
 <br>
 
-# Skils 표 + 그림으로 예쁘게 만들기
-
-|Language|
-|:---:|
-||
-
-|Blockchain|
-|:---:|
-||
-
-|Web Back-end|
-|:---:|
-||
-
-|Database|
-|:---:|
-||
-
-|Web Front-end|
-|:---:|
-||
-
+# Skills
 
 ## Language
-- <b>Java, Javascript</b>, Solidity, Go, Python, PHP, JSP, C, C++, C#, Swift
+{% skill Javascript 66 warning %}
+{% skill PHP 66 gray %}
+{% skill Solidity 44 dark %}
+{% skill Java 66 danger %}
+{% skill Go 66 info %}
 
-## Server
-- <b>Node.js</b>, Apache Server, Apache Tomcat, IIS
+## Blockchain
+{% skill Hyperledger-Fabric 33 danger %}
+{% skill Ethereum 33 dark %}
+{% skill Luniverse 50 primary %}
 
-## DB
-- <b>MySQL, MariaDB</b>, MongoDB, MS-SQL, PostgreSQL 
+## Web Back-end
+{% skill Node.js 66 success %}
+{% skill Codeigniter 50 danger %}
+{% skill Spring 50 success %}
 
-## Library
-- React.js (PWA), React-Native, Bootstrap
+## Database
+{% skill Mysql 66 dark %}
+{% skill Mongodb 33 success %}
 
-## Framework
-- <b>Hyperledger-Fabric, Spring Framework</b>, Truffle, CodeIgniter, Flask, Django
-
-<br>
-
-# Research Interests
-- 프로그래밍 언어 / 비즈니스 모델 / 네트워크 등의 상세한 부분을 구체적으로 (전문성이 보일 수 있도록)
+## Web Front-end
+{% skill React 30 info %}
+{% skill Bootstrap 40 dark %}
 
 <br>
 

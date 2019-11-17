@@ -12,6 +12,9 @@ cover: /posts/poomkey/poomkey.png
 - 최한솔[[9992](https://github.com/9992), Design & Back-End]
 - 원소희[[infiduk](https://github.com/infiduk), Front-End]
 
+## 프로젝트 기간
+- 2019.09 ~ 2019.10
+
 ## 프로젝트 개요
 
 ### 현황 및 문제점

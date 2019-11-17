@@ -3,7 +3,7 @@ title: 반려견 웨딩 서비스 - 이어줄개
 date: 2019-08-23 07:56:50
 category: [Portfolio, Public Blockchain]
 tags: [KBCI, Luniverse, Solidity, Node.js, React-Native]
-cover: /posts/linkdog/main.jpg
+cover: /posts/linkdog/linkdog.png
 ---
 ## 반려견 웨딩 서비스 - 이어줄개
 
@@ -26,6 +26,7 @@ cover: /posts/linkdog/main.jpg
 반려동물의 웨딩(결혼) 서비스를 개발하고자 합니다. 서비스 내에는 웨딩, 교배, 출산, 산후조리, 분양, 반려동물 등록 지원, 신혼여행 등의 절차가 포함되고, 각 절차에는 필요한 경우 블록체인 기술을 이용해 정보를 기록함으로써 사용자에게 신뢰도 높은 정보를 제공할 수 있습니다. 
 
 ## 기획 / 설계 문서 : 
+[Go to notion](https://www.notion.so/iloveblockchain16f90134eee64f2db29f91df8295904f)
 
 ## 개발 언어 / 구성 환경
 Javascript, Solidity / Luniverse, Node.js, React-Native, MySQL 5.7
