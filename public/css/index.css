@@ -2862,6 +2862,15 @@ footer {
 .night-mode #page-header .menus_item_child li a {
   color: #99a9bf;
 }
+.night-mode .card {
+  border: 1px solid rgba(0,0,0,0.6);
+}
+.night-mode .card div {
+  background-color: #2d3035 !important;
+}
+.night-mode .card .card-body {
+  background-color: #2d3035 !important;
+}
 .note {
   margin: 10px 0;
   padding: 15px;

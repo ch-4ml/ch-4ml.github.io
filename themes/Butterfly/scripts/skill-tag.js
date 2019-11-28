@@ -6,9 +6,9 @@ hexo.extend.tag.register('skill', args => {
     return `
       <table>
         <tr>
-          <td width="10%" style="vertical-align: middle; border: 0;">
+          <td width="10%" style="border: 0;">
             <a href="/tags/${tag}">
-              <img src="/about/index/${title}.png" class="card-img-top" alt="CANNOT RENDER IMAGE" style="width: 100%; height: auto;">
+              <img src="/about/index/${title}.png" style="min-width: 40px; min-height: auto; max-width: 50px; max-height: 50px; width: 100%; height: 100%;">
             </a>
           </td>
           <td width="90%" style="vertical-align: middle; border: 0;">

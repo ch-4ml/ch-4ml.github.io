@@ -1,7 +1,7 @@
 ---
 title: 온라인 남성 가방 쇼핑몰
 date: 2017-09-03 10:40:34
-tags: [Portfolio, PHP]
+tags: [Portfolio, PHP, Javascript]
 cover: /posts/bag-shopping-mall/메인.png
 ---
 # 온라인 남성 가방 쇼핑몰

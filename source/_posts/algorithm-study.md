@@ -2,7 +2,7 @@
 title: 알고리즘 문제 해결 스터디
 date: 2019-11-02 01:59:03
 category: [Study, Algorithm]
-tags: [Programmers, Algorithm]
+tags: [Programmers, Algorithm, Javascript]
 cover: /posts/algorithm-study/오구.gif
 ---
 

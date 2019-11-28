@@ -1,16 +1,19 @@
 ---
-title: 양자택일형 퀴즈 프로젝트 - QnQ
+title: 양자택일형 연예인 선호도 투표 앱 - Make for fan
 date: 2019-10-21 07:57:10
 category: [Portfolio, Private Blockchain]
 tags: [KBCI, Hyperledger-Fabric, Node.js, Go]
 cover: /posts/fff/fff.png
 ---
-# 둘 중 하나를 선택하는 퀴즈 프로젝트 - QnQ
+# 둘 중 하나를 선택하는 퀴즈 프로젝트 - Make for fan
 
 ## 프로젝트 팀 :
 - 박찬형[[ch-4ml](https://github.com/ch-4ml), Back-End & ChainCode]
 - 최한솔[[9992](https://github.com/9992), Design & Back-End]
 - 원소희[[infiduk](https://github.com/infiduk), Front-End]
+
+## 프로젝트 기간 :
+~ 2019.11.28
 
 ## 프로젝트 개요 :  
 
