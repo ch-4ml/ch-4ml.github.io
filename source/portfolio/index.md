@@ -8,7 +8,7 @@ date: 2019-11-04 05:39:25
 
 {% card "/posts/poomkey/poomkey.png" "/posts/poomkey" "제품 키 중고 거래 및 관리 프로젝트 - Poomkey" "Hyperledger-Fabric" "Node.js" "Go" %}
 
-{% card "/posts/fff/fff.png" "/posts/fff" "양자택일형 퀴즈 프로젝트 - QnQ" "Hyperledger-Fabric" "Node.js" "Go" "React.js" %}
+{% card "/posts/fff/fff.png" "/posts/fff" "양자택일형 연예인 선호도 투표 앱 - Make for fan" "Hyperledger-Fabric" "Node.js" "Go" "React.js" %}
 </div>
 
 # Public Blockchain

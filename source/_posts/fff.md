@@ -13,7 +13,7 @@ cover: /posts/fff/fff.png
 - 원소희[[infiduk](https://github.com/infiduk), Front-End]
 
 ## 프로젝트 기간 :
-~ 2019.11.28
+- 2019.09 ~ 2019.11
 
 ## 프로젝트 개요 :  
 
@@ -36,3 +36,4 @@ cover: /posts/fff/fff.png
 ## 프로젝트 내 역할 :
 
 ## Git :
+[Go to Github](https://github.com/ch-4ml/make-for-fan)
