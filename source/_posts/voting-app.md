@@ -12,7 +12,7 @@ cover: /posts/voting-app/jeongeui.png
 - 원소희[[infiduk](https://github.com/infiduk), Front-End]
 
 ## 프로젝트 기간
-- 2019.09 ~ 2019.10
+- 2019.09 ~
 
 ## 프로젝트 개요
 교수님께서 필요에 의해 의탁하신 프로젝트입니다.<br>
@@ -30,6 +30,10 @@ cover: /posts/voting-app/jeongeui.png
 - 선거가 종료된 후 결과는 관리자 페이지에서만 조회 가능합니다.
 
 ~~사진 추가 예정~~
+
+## 진행 상황
+- 1차 시연 완료
+- 피드백 반영 중
 
 ## Go to
 - [Github](https://github.com/ch-4ml/voting-app)

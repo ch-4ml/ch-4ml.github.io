@@ -4,12 +4,6 @@ date: 2019-10-20 07:21:58
 ---
 기업형 블록체인에 관심을 갖고 개발합니다.
 
-# Team
-|최한솔|박찬형|원소희|
-|:---:|:---:|:---:|
-|<a href="https://9992.github.io"><img src='/about/index/9992.jpg' width='200' /></a>| <a href="https://ch-4ml.github.io"> <img src='/img/portrait.jpg' width='200' /></a> | <a href="https://infiduk.github.io"><img src='/about/index/infiduk.jpg' width='200' /></a>|
-|Design & Back-End | Back-End | Back-End & Front-End |
-
 <br>
 
 # Github Contributions
@@ -55,7 +49,7 @@ date: 2019-10-20 07:21:58
 <br>
 
 # Profile
-- 2019.10 ~ 9999.12 1일 1커밋 프로젝트
+- 2019.12 ~ 2019.02 (주) 글로스퍼 소프트웨어 개발 근무
 - 2019.06 ~ 2019.11 디지털트랜스포메이션을 위한 블록체인 비즈니스 청년혁신가 양성 과정 이수
 - 2019.03 ~ 2020.02 인덕대학교 컴퓨터소프트웨어학과 전공심화과정 졸업예정
 - 2019.01 ~ 2019.05 이더리움 연구회 5기 dApp 분과 활동
