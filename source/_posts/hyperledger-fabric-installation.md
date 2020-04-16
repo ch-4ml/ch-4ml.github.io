@@ -79,15 +79,18 @@ $ npm install -g grpc
 ```shell
 $ mkdir -p $GOPATH/src/github.com/hyperledger
 $ cd $GOPATH/src/github.com/hyperledger
-$ git clone https://github.com/hyperledger/fabric.git
+$ git clone -b release-1.4 --single-branch https://github.com/hyperledger/fabric.git
 $ cd $GOPATH/src/github.com/hyperledger
-$ git clone https://github.com/hyperledger/fabric-samples.git
+$ git clone -b release-1.4 --single-branch https://github.com/hyperledger/fabric-samples.git
 ```
 
 ### 테스트
 ```shell
 $ cd $GOPATH/src/github.com/hyperledger/fabric-samples
-$ curl -sSL http://bit.ly/2ysbOFE | bash -s
+
+// hyperledger fabric v1.4.1
+$ curl -sSL http://bit.ly/2ysbOFE | bash -s -- 1.4.1
+
 $ cd $GOPATH/src/github.com/hyperledger/fabric-samples/fabcar
 $ ./startFabric.sh
 $ cd ./javascript
