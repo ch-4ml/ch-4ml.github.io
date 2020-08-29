@@ -11,3 +11,8 @@ tags: [Node.js, Javascript]
 
 {% asset_img "javascript_execution.jpg" "시점 비교" %}<br>
 (출처: [Peter Beverloo](http://peter.sh/experimentsasynchronous-and-deferred-javascript-execution-explained/))
+
+### Paypal 간단하게 연결하기
+[Paypal](https://developer.paypal.com/docs/checkout/integrate)
+
+Live 사용 시 한국 계정 사이의 결제는 허용하지 않는다. 수수료 관련 정책 때문인 듯...
