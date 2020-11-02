@@ -16,3 +16,13 @@ tags: [Node.js, Javascript]
 [Paypal](https://developer.paypal.com/docs/checkout/integrate)
 
 Live 사용 시 한국 계정 사이의 결제는 허용하지 않는다. 수수료 관련 정책 때문인 듯...
+
+### Debounce 와 Throttle
+[참고](https://webclub.tistory.com/607)
+<b>Debounce</b>
+- 이벤트를 그룹화하여 특정시간이 지난 후 하나의 이벤트만 발생하도록 하는 기술
+
+<b>Throttle</b>
+- 이벤트를 일정한 주기마다 발생하도록 하는 기술
+- 마지막 함수가 호출된 후 일정 시간이 지나기 전에 다시 호출되지 않도록 하는 것
+

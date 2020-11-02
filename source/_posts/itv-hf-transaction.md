@@ -3,7 +3,7 @@ title: itv-hf-transaction
 date: 2019-11-15 09:37:37
 category: [Study, Hyperledger-Fabric]
 tags: [Hyperledger-Fabric]
-cover: /posts/itv-hf-transaction/tx-life-cycle.png
+cover: /posts/itv-hf-transaction/hyperledger-fabric-logo.png
 ---
 # MVCC 충돌과 낙관적 잠금
 MVCC conflict & Optimistic lock

@@ -2,6 +2,8 @@
 title: hyperledger-fabric-installation
 date: 2020-04-05 07:45:57
 tags: [Study, Hyperledger-Fabric]
+cover: /posts/hyperledger-fabric-installation/hyperledger-fabric-logo.png
+
 ---
 # Hyperledger Fabric Installation
 

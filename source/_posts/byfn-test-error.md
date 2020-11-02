@@ -1,7 +1,8 @@
 ---
 title: byfn-test-error
 date: 2020-04-20 00:55:43
-tags:
+tags: [Study, Hyperledger-Fabric]
+cover: /posts/byfn-test-error/hyperledger-fabric-logo.png
 ---
 
 # Byfn 테스트 중 의문점 발생
